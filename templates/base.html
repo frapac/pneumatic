@@ -70,6 +70,13 @@
 				{% endfor %}
 			</div>
 			{% endif %}
+			{% if DETAILED_SIDEBAR_LINKS %}
+            <hr>
+			<div id="sidebar-links">
+                {{ DETAILED_SIDEBAR_LINKS | join("</br>") }}
+			</div>
+            <hr>
+			{% endif %}
 
 			<hr id="sidebar-divider">
 		</aside>

@@ -216,11 +216,6 @@ code {
 	margin: 12px 0;
 }
 
-div.math {
-	overflow-x: scroll;
-}
-
-
 // Layout
 
 $desktop: "only screen and (min-width: 960px)";
@@ -258,7 +253,7 @@ aside div {
 #avatar {
 	margin: 0 auto;
 	display: block;
-	width: 140px;
+	width: 160px;
 	border-radius: 15px;
 }
 
@@ -274,6 +269,10 @@ aside div {
 
 #sidebar-links {
 	color: #aaa;
+}
+
+#social {
+	margin-bottom: 0.5cm;
 }
 
 #sidebar-divider {
